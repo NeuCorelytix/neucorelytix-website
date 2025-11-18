@@ -137,3 +137,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Scroll to Join Network section
+function scrollToJoin() {
+    const joinSection = document.getElementById('joinNetwork');
+    if (joinSection) {
+        joinSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+}
+
