@@ -6,6 +6,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initHeroVoiceInput();
     initProblemModal();
     initFormHandlers();
-    initProblemCarousel();
     initEasierTabs();
 });

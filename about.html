@@ -27,8 +27,9 @@
     <meta name="twitter:description" content="Bridging technology and business operations through custom AI development and intelligent automation.">
     <meta name="twitter:image" content="https://www.neucorelytix.com/images/automation.png">
 
-    <title>About Us | NeuCorelytix - AI Solutions & Business Automation Experts</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>NeuCorelytix</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/logo.png">
     <link rel="apple-touch-icon" href="images/logo.png">
     <link rel="stylesheet" href="styles.css?v=1.1">
 
@@ -85,6 +86,14 @@
       ]
     }
     </script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KEECNPSJ2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-4KEECNPSJ2');
+    </script>
 </head>
 <body>
 
@@ -92,9 +101,8 @@
     <header class="site-header" id="siteHeader">
         <div class="header-container">
             <a href="index.html" class="brand-logo" aria-label="NeuCorelytix Home">
-                <img src="images/logo.png" alt="NeuCorelytix Logo" class="brand-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
-                <span class="brand-logo-fallback" style="display:none;">N</span>
-                <span class="brand-name">NeuCorelytix</span>
+                <img src="images/logo.png" alt="NeuCorelytix Logo" class="brand-logo-img">
+                <img src="images/Logo_Name.png" alt="NeuCorelytix" class="brand-name-img">
             </a>
 
             <nav class="main-nav" id="mainNav">
@@ -257,7 +265,18 @@
         <div class="section-container footer-container">
             <div class="footer-brand">
                 <img src="images/logo.png" alt="NeuCorelytix Logo" class="footer-logo-img">
-                <span class="footer-logo-name">NeuCorelytix</span>
+                <img src="images/Logo_Name.png" alt="NeuCorelytix" class="footer-name-img">
+            </div>
+
+            <div class="footer-contact">
+                <a href="mailto:team@neucorelytix.com" class="footer-contact-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+                    team@neucorelytix.com
+                </a>
+                <a href="https://www.linkedin.com/company/108087645/" target="_blank" rel="noopener" class="footer-contact-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45z"/></svg>
+                    LinkedIn
+                </a>
             </div>
 
             <nav class="footer-nav">
@@ -282,7 +301,7 @@
             <div class="modal-header-box text-center">
                 <img src="images/logo.png" alt="NeuCorelytix Logo" class="modal-header-logo">
                 <h3 class="modal-title" data-i18n="modal_title">Consult with NeuCorelytix</h3>
-                <p class="modal-sub" data-i18n="modal_sub">Tell us what's taking too much time or causing frustration in your business.</p>
+                <p class="modal-sub" data-i18n="modal_subtitle">Tell us what's taking too much time or causing frustration in your business.</p>
             </div>
 
             <form class="modal-form" id="modalProblemForm" action="https://formspree.io/f/mdkbaneo" method="POST">
@@ -353,7 +372,7 @@
                     <input type="text" id="modalContact" name="contact" placeholder="name@company.com or +91 98765 43210" required class="form-control">
                 </div>
 
-                <button type="submit" class="btn btn-consult btn-block" data-i18n="btn_submit_inquiry">
+                <button type="submit" class="btn btn-consult btn-block" data-i18n="modal_btn_submit">
                     Submit Inquiry →
                 </button>
             </form>
@@ -375,7 +394,6 @@
     <script src="js/voice.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/forms.js"></script>
-    <script src="js/carousel.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/main.js"></script>
 </body>

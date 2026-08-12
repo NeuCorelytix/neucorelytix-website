@@ -30,8 +30,9 @@
         content="Transform manual operations with custom AI workflows, WhatsApp bots, and automated software solutions by NeuCorelytix.">
     <meta name="twitter:image" content="https://www.neucorelytix.com/images/automation.png">
 
-    <title>AI Solutions & Business Automation Agency | NeuCorelytix</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>NeuCorelytix</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/logo.png">
     <link rel="apple-touch-icon" href="images/logo.png">
     <link rel="stylesheet" href="styles.css?v=1.1">
 
@@ -113,6 +114,14 @@
       ]
     }
     </script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KEECNPSJ2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-4KEECNPSJ2');
+    </script>
 </head>
 
 <body>
@@ -121,10 +130,8 @@
     <header class="site-header" id="siteHeader">
         <div class="header-container">
             <a href="#" class="brand-logo" aria-label="NeuCorelytix Home">
-                <img src="images/logo.png" alt="NeuCorelytix Logo" class="brand-logo-img"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
-                <span class="brand-logo-fallback" style="display:none;">N</span>
-                <span class="brand-name">NeuCorelytix</span>
+                <img src="images/logo.png" alt="NeuCorelytix Logo" class="brand-logo-img">
+                <img src="images/Logo_Name.png" alt="NeuCorelytix" class="brand-name-img">
             </a>
 
             <nav class="main-nav" id="mainNav">
@@ -196,13 +203,37 @@
                     <div class="hero-watermark-bg"></div>
 
                     <h1 class="hero-title" data-i18n="hero_title">
-                        What's taking too much time in your business?
+                        Got a problem or an idea? We'll handle the technology.
                     </h1>
 
                     <p class="hero-subtitle" data-i18n="hero_subtitle">
-                        <strong>You don't need to know what technology you need. Tell us what's not working</strong> —
-                        we'll help figure out the simplest way to improve it.
+                        <strong>You don't need to know whether you need AI, automation, or software.</strong> Tell us
+                        the problem or idea — we'll help figure out the right technology.
                     </p>
+
+                    <!-- Trust / Value Tags -->
+                    <div class="hero-trust-tags">
+                        <span class="trust-tag">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <span data-i18n="trust_security">Data Security</span>
+                        </span>
+                        <span class="trust-tag">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                            <span data-i18n="trust_transparency">Full Transparency</span>
+                        </span>
+                        <span class="trust-tag">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            <span data-i18n="trust_ai_powered">AI-Powered</span>
+                        </span>
+                        <span class="trust-tag">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                            <span data-i18n="trust_seamless">Seamless Integration</span>
+                        </span>
+                        <span class="trust-tag">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                            <span data-i18n="trust_customized">100% Customized</span>
+                        </span>
+                    </div>
 
                     <!-- Problem Input Bar -->
                     <form class="hero-problem-bar" id="heroProblemForm" action="https://formspree.io/f/mdkbaneo"
@@ -221,8 +252,8 @@
                         </button>
 
                         <input type="text" id="heroProblemInput" name="problem_description"
-                            placeholder="Describe what's taking up your time in your business..." required
-                            class="problem-input-field" data-i18n-placeholder="hero_input_placeholder">
+                            placeholder="Tell us a problem, repetitive task, or something you want to build..."
+                            class="problem-input-field" required data-i18n-placeholder="hero_input_placeholder">
 
                         <button type="submit" class="btn-hero-send" id="heroSubmitBtn" aria-label="Send message"
                             title="Send message">
@@ -245,7 +276,8 @@
                             </svg>
                         </span>
                         <span data-i18n="hero_free_call_note"><strong>100% Free Initial Consultation</strong> — Tell us
-                            what's annoying you. We'll discuss options with zero pressure.</span>
+                            what's bothering you or what you'd like to build. We'll discuss options with zero
+                            pressure.</span>
                     </div>
                 </div>
 
@@ -259,7 +291,139 @@
             </div>
         </section>
 
-        <!-- 2. "Do any of these sound familiar?" (All 5 Cards Visible on Desktop Grid) -->
+        <!-- 1b. Sectors We Serve -->
+        <section class="sectors-section">
+            <div class="section-container text-center">
+                <p class="sectors-label" data-i18n="sectors_label">We work with businesses across these sectors</p>
+                <div class="sectors-strip">
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        <span data-i18n="sector_retail">Retail &amp; Shops</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                        <span data-i18n="sector_trading">Trading &amp; Distribution</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        <span data-i18n="sector_finance">CA &amp; Finance Firms</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        <span data-i18n="sector_healthcare">Healthcare &amp; Clinics</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <span data-i18n="sector_services">Service Businesses</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        <span data-i18n="sector_logistics">Logistics &amp; Transport</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><line x1="9" y1="22" x2="9" y2="12"/><line x1="15" y1="22" x2="15" y2="12"/><line x1="9" y1="12" x2="15" y2="12"/></svg>
+                        <span data-i18n="sector_realestate">Real Estate &amp; Property</span>
+                    </span>
+                    <span class="sector-pill">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <span data-i18n="sector_family">Family-Owned Businesses</span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1c. What We Can Build — Scope Ladder (small fixes to full AI systems) -->
+        <section class="what-we-build-section" id="what-we-build">
+            <div class="section-container text-center">
+                <h2 class="section-heading" data-i18n="build_title">From a quick fix to a complete AI system</h2>
+                <p class="section-subheading" data-i18n="build_subtitle">
+                    Some problems need a small automation. Others need a full system. We do both.
+                </p>
+
+                <div class="build-grid">
+                    <!-- Tier 1: Quick wins -->
+                    <div class="build-card">
+                        <div class="build-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#015077"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                            </svg>
+                        </div>
+                        <span class="build-tier-label" data-i18n="build_tier1_label">QUICK WINS</span>
+                        <h3 class="build-card-title" data-i18n="build_tier1_title">Small automations, this week</h3>
+                        <p class="build-card-desc" data-i18n="build_tier1_desc">
+                            The repetitive daily tasks that quietly eat your hours — answered, sorted, and logged
+                            without you.
+                        </p>
+                    </div>
+
+                    <!-- Tier 2: Dashboards -->
+                    <div class="build-card">
+                        <div class="build-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#015077"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="20" x2="12" y2="10" />
+                                <line x1="18" y1="20" x2="18" y2="4" />
+                                <line x1="6" y1="20" x2="6" y2="16" />
+                            </svg>
+                        </div>
+                        <span class="build-tier-label" data-i18n="build_tier2_label">BUSINESS DASHBOARDS</span>
+                        <h3 class="build-card-title" data-i18n="build_tier2_title">See exactly what's happening</h3>
+                        <p class="build-card-desc" data-i18n="build_tier2_desc">
+                            Live dashboards for sales, stock, payments, and profit — so you can spot problems and
+                            opportunities the moment they appear.
+                        </p>
+                    </div>
+
+                    <!-- Tier 3: Custom AI -->
+                    <div class="build-card">
+                        <div class="build-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#015077"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="4" y="8" width="16" height="12" rx="2" />
+                                <path d="M12 8V4" />
+                                <circle cx="12" cy="2" r="0.5" />
+                                <path d="M9 14h6" />
+                            </svg>
+                        </div>
+                        <span class="build-tier-label" data-i18n="build_tier3_label">CUSTOM AI SYSTEMS</span>
+                        <h3 class="build-card-title" data-i18n="build_tier3_title">AI built around your business</h3>
+                        <p class="build-card-desc" data-i18n="build_tier3_desc">
+                            Chatbots, smart document search, forecasting, and intelligent agents — engineered to your
+                            exact workflow and business rules.
+                        </p>
+                    </div>
+
+                    <!-- Tier 4: Voice automations -->
+                    <div class="build-card">
+                        <div class="build-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#015077"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                                <line x1="12" y1="19" x2="12" y2="23" />
+                                <line x1="8" y1="23" x2="16" y2="23" />
+                            </svg>
+                        </div>
+                        <span class="build-tier-label" data-i18n="build_tier4_label">VOICE AUTOMATIONS</span>
+                        <h3 class="build-card-title" data-i18n="build_tier4_title">Voice agents that talk to your
+                            customers</h3>
+                        <p class="build-card-desc" data-i18n="build_tier4_desc">
+                            Incoming calls answered, orders booked, and reminders delivered by voice — 24/7, in your
+                            customers' language.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="build-cta" style="margin-top: 2.5rem;">
+                    <button class="btn btn-consult btn-lg open-problem-modal" data-i18n="btn_build_cta">
+                        Tell Us What You Want to Build →
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. "Do any of these sound familiar?" -->
         <section class="problems-grid-section" id="problems">
             <div class="section-container text-center">
                 <h2 class="section-heading" data-i18n="familiar_title">Do any of these sound familiar?</h2>
@@ -267,113 +431,93 @@
                     Everyday business problems that quietly take up hours of your week.
                 </p>
 
-                <!-- Responsive Grid/Carousel Container -->
-                <div class="problem-carousel-container">
-                    <button class="carousel-btn prev-btn" id="problemCarouselPrev"
-                        aria-label="Previous problem">‹</button>
-
-                    <div class="problem-carousel-wrapper">
-                        <div class="problem-carousel-track" id="problemCarouselTrack">
-                            <!-- Card 1 -->
-                            <div class="problem-card">
-                                <div class="problem-card-icon">
-                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#015077"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path
-                                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-                                    </svg>
-                                </div>
-                                <h3 class="problem-card-title" data-i18n="prob1_title">Too many WhatsApp messages?</h3>
-                                <p class="problem-card-desc" data-i18n="prob1_desc">We manually answer the same
-                                    questions, price inquiries, and order updates every single day.</p>
-                            </div>
-
-                            <!-- Card 2 -->
-                            <div class="problem-card">
-                                <div class="problem-card-icon">
-                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#015077"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                                        <polyline points="14 2 14 8 20 8" />
-                                        <line x1="16" y1="13" x2="8" y2="13" />
-                                        <line x1="16" y1="17" x2="8" y2="17" />
-                                        <polyline points="10 9 9 9 8 9" />
-                                    </svg>
-                                </div>
-                                <h3 class="problem-card-title" data-i18n="prob2_title">Repeating the same paperwork?
-                                </h3>
-                                <p class="problem-card-desc" data-i18n="prob2_desc">We copy the same customer details
-                                    into multiple forms, receipts, and registers by hand.</p>
-                            </div>
-
-                            <!-- Card 3 -->
-                            <div class="problem-card">
-                                <div class="problem-card-icon">
-                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#015077"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <line x1="12" y1="20" x2="12" y2="10" />
-                                        <line x1="18" y1="20" x2="18" y2="4" />
-                                        <line x1="6" y1="20" x2="6" y2="16" />
-                                    </svg>
-                                </div>
-                                <h3 class="problem-card-title" data-i18n="prob3_title">Spending hours on Excel?</h3>
-                                <p class="problem-card-desc" data-i18n="prob3_desc">Our team manually prepares reports,
-                                    compiles spreadsheets, and tallies totals every week.</p>
-                            </div>
-
-                            <!-- Card 4 -->
-                            <div class="problem-card">
-                                <div class="problem-card-icon">
-                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#015077"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="12" cy="12" r="10" />
-                                        <polyline points="12 6 12 12 16 14" />
-                                    </svg>
-                                </div>
-                                <h3 class="problem-card-title" data-i18n="prob4_title">Forgetting follow-ups?</h3>
-                                <p class="problem-card-desc" data-i18n="prob4_desc">Someone has to remember to call
-                                    pending customers, track payments, and send reminders.</p>
-                            </div>
-
-                            <!-- Card 5 -->
-                            <div class="problem-card">
-                                <div class="problem-card-icon">
-                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#015077"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4" />
-                                        <polyline points="14 2 14 8 20 8" />
-                                        <path d="M2 15h10" />
-                                        <path d="M9 18l3-3-3-3" />
-                                    </svg>
-                                </div>
-                                <h3 class="problem-card-title" data-i18n="prob5_title">Bills & documents everywhere?
-                                </h3>
-                                <p class="problem-card-desc" data-i18n="prob5_desc">Finding old bills, past agreements,
-                                    or customer history takes forever when you need it.</p>
-                            </div>
+                <div class="problem-cards-grid">
+                    <!-- Card 1 -->
+                    <div class="prob-card prob-card--blue">
+                        <div class="prob-card-num">01</div>
+                        <div class="prob-card-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
                         </div>
+                        <h3 class="prob-card-title" data-i18n="prob1_title">Too many WhatsApp messages?</h3>
+                        <p class="prob-card-desc" data-i18n="prob1_desc">We manually answer the same questions, price inquiries, and order updates every single day.</p>
                     </div>
 
-                    <button class="carousel-btn next-btn" id="problemCarouselNext" aria-label="Next problem">›</button>
-                </div>
+                    <!-- Card 2 -->
+                    <div class="prob-card prob-card--amber">
+                        <div class="prob-card-num">02</div>
+                        <div class="prob-card-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                            </svg>
+                        </div>
+                        <h3 class="prob-card-title" data-i18n="prob2_title">Repeating the same paperwork?</h3>
+                        <p class="prob-card-desc" data-i18n="prob2_desc">We copy the same customer details into multiple forms, receipts, and registers by hand.</p>
+                    </div>
 
-                <!-- Carousel Dots Indicator (Mobile Only) -->
-                <div class="carousel-dots" id="problemCarouselDots">
-                    <span class="dot active" data-index="0"></span>
-                    <span class="dot" data-index="1"></span>
-                    <span class="dot" data-index="2"></span>
-                    <span class="dot" data-index="3"></span>
-                    <span class="dot" data-index="4"></span>
-                </div>
+                    <!-- Card 3 -->
+                    <div class="prob-card prob-card--teal">
+                        <div class="prob-card-num">03</div>
+                        <div class="prob-card-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="20" x2="12" y2="10"/>
+                                <line x1="18" y1="20" x2="18" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="16"/>
+                            </svg>
+                        </div>
+                        <h3 class="prob-card-title" data-i18n="prob3_title">Spending hours on Excel?</h3>
+                        <p class="prob-card-desc" data-i18n="prob3_desc">Our team manually prepares reports, compiles spreadsheets, and tallies totals every week.</p>
+                    </div>
 
-                <div class="problem-custom-prompt">
-                    <p data-i18n="custom_prob_prompt">Have a different problem taking up your time?</p>
-                    <button class="btn btn-outline open-problem-modal" data-i18n="btn_different_prob">
-                        I Have a Different Problem →
-                    </button>
+                    <!-- Card 4 -->
+                    <div class="prob-card prob-card--purple">
+                        <div class="prob-card-num">04</div>
+                        <div class="prob-card-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h3 class="prob-card-title" data-i18n="prob4_title">Forgetting follow-ups?</h3>
+                        <p class="prob-card-desc" data-i18n="prob4_desc">Someone has to remember to call pending customers, track payments, and send reminders.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="prob-card prob-card--red">
+                        <div class="prob-card-num">05</div>
+                        <div class="prob-card-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <path d="M2 15h10"/>
+                                <path d="M9 18l3-3-3-3"/>
+                            </svg>
+                        </div>
+                        <h3 class="prob-card-title" data-i18n="prob5_title">Bills &amp; documents everywhere?</h3>
+                        <p class="prob-card-desc" data-i18n="prob5_desc">Finding old bills, past agreements, or customer history takes forever when you need it.</p>
+                    </div>
+
+                    <!-- Card 6 — CTA Card -->
+                    <div class="prob-card prob-card--cta open-problem-modal" role="button" tabindex="0" style="cursor:pointer;">
+                        <div class="prob-card-num">06</div>
+                        <div class="prob-card-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="16"/>
+                                <line x1="8" y1="12" x2="16" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="prob-card-title" data-i18n="custom_prob_prompt">Have a different problem taking up your time?</h3>
+                        <p class="prob-card-desc" data-i18n="btn_different_prob_cta">Tell us about it. We'll see if we can make it easier for you. →</p>
+                    </div>
                 </div>
             </div>
         </section>
+
 
         <!-- 3. "What Could Change?" (Visual Transformation & Differentiators) -->
         <section class="before-after-section" id="solutions">
@@ -383,14 +527,17 @@
                     Here is what happens when you let simple software handle the repetitive steps.
                 </p>
 
-                <!-- Visual Workflow Graphic -->
-                <div class="before-after-img-card">
-                    <img src="images/automation.png" alt="Before vs After NeuCorelytix Automation Visual Workflow"
-                        class="before-after-illustration">
-                </div>
+                <!-- Visual Workflow Graphic + Differentiators Side by Side -->
+                <div class="ba-split">
+                    <!-- Visual Workflow Graphic -->
+                    <div class="before-after-img-card">
+                        <img src="images/automation.png"
+                            alt="Before vs After NeuCorelytix Automation Visual Workflow"
+                            class="before-after-illustration">
+                    </div>
 
-                <!-- Core Differentiation: Customized & Seamless -->
-                <div class="diff-grid" style="margin-top: 2.5rem;">
+                    <!-- Core Differentiation: Customized & Seamless -->
+                    <div class="diff-grid">
                     <div class="diff-card">
                         <div class="diff-icon icon-custom">
                             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#015077"
@@ -421,13 +568,17 @@
                         </p>
                     </div>
                 </div>
+                </div>
 
-                <div class="ba-cta-box" style="margin-top: 3rem;">
-                    <h3 class="ba-cta-heading" data-i18n="ba_cta_heading">"Wait... can you do this for my business?"
-                    </h3>
-                    <p data-i18n="ba_cta_sub">Yes! Tell us what takes your time and we'll show you how a simple workflow
-                        can fix it.</p>
-                    <button class="btn btn-consult btn-lg open-problem-modal" data-i18n="btn_could_work">
+                <div class="ba-cta-box">
+                    <div class="ba-cta-text">
+                        <h3 class="ba-cta-heading" data-i18n="ba_cta_heading">"Wait... can you do this for my
+                            business?"
+                        </h3>
+                        <p data-i18n="ba_cta_sub">Yes! Tell us what takes your time and we'll show you how a simple
+                            workflow can fix it.</p>
+                    </div>
+                    <button class="btn btn-gold btn-lg open-problem-modal" data-i18n="btn_could_work">
                         Could This Work for My Business? →
                     </button>
                 </div>
@@ -463,6 +614,10 @@
                     <button class="easier-tab-btn" data-tab="3">
                         <span class="tab-icon">🔌</span>
                         <span data-i18n="easier4_title">Connecting Your Tools</span>
+                    </button>
+                    <button class="easier-tab-btn" data-tab="4">
+                        <span class="tab-icon">📈</span>
+                        <span data-i18n="easier_growth_title">Attract More Customers</span>
                     </button>
                 </div>
 
@@ -558,6 +713,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Panel 4 -->
+                    <div class="easier-panel" data-panel="4">
+                        <div class="easier-panel-card">
+                            <div class="panel-icon-circle icon-blue">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+                                    <polyline points="17 6 23 6 23 12" />
+                                </svg>
+                            </div>
+                            <div class="panel-body">
+                                <h3 class="panel-title text-white" data-i18n="easier_growth_title">Attract more
+                                    customers</h3>
+                                <p class="panel-desc text-white-subtle" data-i18n="easier_growth_desc">The same
+                                    automation that saves you time also catches new business — answering enquiries
+                                    instantly and never letting a lead slip away.</p>
+                                <div class="panel-tags">
+                                    <span class="tag" data-i18n="tag_chatbot">24/7 Chatbot</span>
+                                    <span class="tag" data-i18n="tag_lead_followup">Instant Lead Follow-Up</span>
+                                    <span class="tag" data-i18n="tag_custom_ai">Custom AI Solutions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="easier-custom-prompt">
@@ -570,6 +750,9 @@
                 </div>
             </div>
         </section>
+
+        <!-- 4b. What We Can Build — Scope Ladder (small fixes to full AI systems) -->
+        
 
         <!-- 5. Reassuring 4-Step How We Work Together -->
         <section class="how-it-works-section" id="how-it-works">
@@ -765,7 +948,18 @@
         <div class="section-container footer-container">
             <div class="footer-brand">
                 <img src="images/logo.png" alt="NeuCorelytix Logo" class="footer-logo-img">
-                <span class="footer-logo-name">NeuCorelytix</span>
+                <img src="images/Logo_Name.png" alt="NeuCorelytix" class="footer-name-img">
+            </div>
+
+            <div class="footer-contact">
+                <a href="mailto:team@neucorelytix.com" class="footer-contact-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+                    team@neucorelytix.com
+                </a>
+                <a href="https://www.linkedin.com/company/108087645/" target="_blank" rel="noopener" class="footer-contact-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.55V9h3.57v11.45z"/></svg>
+                    LinkedIn
+                </a>
             </div>
 
             <nav class="footer-nav">
@@ -804,7 +998,7 @@
 
                 <div class="form-group">
                     <div class="label-voice-row">
-                        <label for="modalProblemText" class="form-label" data-i18n="modal_label_problem">What's slowing your business down?</label>
+                        <label for="modalProblemText" class="form-label" data-i18n="modal_label_problem">What's slowing your business down, or what do you want to build?</label>
                         <button type="button" class="voice-btn-sm" id="modalVoiceBtn" title="Speak your problem aloud">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z" />
@@ -876,7 +1070,6 @@
     <script src="js/voice.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/forms.js"></script>
-    <script src="js/carousel.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/main.js"></script>
 </body>
