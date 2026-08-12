@@ -1,0 +1,27 @@
+# User-agent directives for search engine crawlers & AI engine bots
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /*.json$
+
+# Explicit permission for major search & AI answer engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap pointer
+Sitemap: https://www.neucorelytix.com/sitemap.xml
