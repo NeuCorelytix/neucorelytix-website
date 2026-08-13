@@ -233,6 +233,37 @@ a {
     color: var(--primary-blue);
 }
 
+/* Guide pages: plain-link language switcher (no JS) */
+.guide-lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.3rem 0.4rem;
+    background: var(--bg-surface-subtle);
+    border: 1px solid var(--border-subtle);
+    border-radius: 100px;
+}
+
+.guide-lang-switcher a {
+    padding: 0.3rem 0.6rem;
+    border-radius: 100px;
+    font-family: var(--font-main);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: all 0.15s ease;
+}
+
+.guide-lang-switcher a:hover {
+    color: var(--primary-blue);
+}
+
+.guide-lang-switcher a.active {
+    background: var(--primary-blue);
+    color: #ffffff;
+}
+
 .btn-consult {
     background: var(--primary-blue);
     color: #ffffff;

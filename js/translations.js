@@ -174,6 +174,21 @@ window.NeoLang = {
         "sector_family": "Family-Owned Businesses",
         "btn_different_prob_cta": "Tell us about it. We'll see if we can make it easier for you. →",
 
+        /* guide chrome */
+        "footer_rights": "© 2026 NeuCorelytix Solutions LLP. All rights reserved.",
+        "footer_link_1": "Top Selling Products Guide",
+        "footer_link_2": "Stock Purchasing Guide",
+        "footer_link_3": "Profit Margin Analysis",
+        "footer_link_4": "Tracking Lost Demand",
+        "footer_link_5": "Family Business Modernization",
+        "footer_link_6": "WhatsApp Customer Enquiries",
+        "modal_label_business": "What does your business do?",
+        "modal_business_placeholder": "e.g. Retail clothing store in Jaipur, wholesale hardware distribution, CA firm...",
+        "modal_label_website": "Website or Social Link (Optional)",
+        "modal_website_placeholder": "e.g. www.mybusiness.com or Instagram handle",
+        "voice_status_listening": "Listening... Describe what your business does.",
+
+
         /* legacy aliases */
         "modal_subtitle": "Set up a free call with Pavani & team. We'll listen to your business problem and discuss solutions — 100% free with zero obligation.",
         "modal_btn_submit": "Submit Inquiry →"
@@ -350,6 +365,21 @@ window.NeoLang = {
         "sector_family": "पारिवारिक व्यवसाय",
         "btn_different_prob_cta": "हमें बताइए। हम देखेंगे कि इसे आपके लिए कैसे आसान किया जा सकता है। →",
 
+        /* guide chrome */
+        "footer_rights": "© 2026 NeuCorelytix Solutions LLP. सर्वाधिकार सुरक्षित।",
+        "footer_link_1": "टॉप बिकने वाले उत्पादों की मार्गदर्शिका",
+        "footer_link_2": "स्टॉक खरीद मार्गदर्शिका",
+        "footer_link_3": "लाभ मार्जिन विश्लेषण",
+        "footer_link_4": "खोई हुई मांग पर नज़र",
+        "footer_link_5": "पारिवारिक व्यवसाय का आधुनिकीकरण",
+        "footer_link_6": "व्हॉट्सऐप ग्राहक पूछताछ",
+        "modal_label_business": "आपका व्यवसाय क्या करता है?",
+        "modal_business_placeholder": "उदा. जयपुर में कपड़े की दुकान, थोक हार्डवेयर वितरण, सीए फर्म...",
+        "modal_label_website": "वेबसाइट या सोशल लिंक (वैकल्पिक)",
+        "modal_website_placeholder": "उदा. www.mybusiness.com या इंस्टाग्राम हैंडल",
+        "voice_status_listening": "सुन रहे हैं... बताइए आपका व्यवसाय क्या करता है।",
+
+
         /* legacy aliases */
         "modal_subtitle": "पवानी और टीम के साथ एक मुफ़्त कॉल तय कीजिए। हम आपकी व्यापारिक समस्या सुनेंगे और समाधानों पर बात करेंगे — 100% मुफ़्त, बिना किसी बाध्यता के।",
         "modal_btn_submit": "पूछताछ भेजें →"
@@ -482,7 +512,7 @@ window.NeoLang = {
         "about_title": "నేను NeuCorelytix ఎందుకు ప్రారంభించాను",
         "about_subtitle": "శక్తివంతమైన టెక్నాలజీకి, రోజువారీ బిజినెస్ సమస్యలకు మధ్య ఒక వారధి.",
         "founder_role": "ఫౌండర్ & AI కన్సల్టెంట్",
-        "story_p1": "నేను పవని. గత <strong>ఐదేళ్లుగా టెక్నాలజీలో పనిచేస్తున్నాను</strong>; ఇటీవలి నా పనిలో ఎక్కువ భాగం AI మరియు ఇంటెలిజెంట్ సిస్టమ్‌లను నిర్మించడంపైనే.",
+        "story_p1": "నేను పావని. గత <strong>ఐదేళ్లుగా టెక్నాలజీలో పనిచేస్తున్నాను</strong>; ఇటీవలి నా పనిలో ఎక్కువ భాగం AI మరియు ఇంటెలిజెంట్ సిస్టమ్‌లను నిర్మించడంపైనే.",
         "story_p2": "ఈ టెక్నాలజీతో దగ్గరగా పనిచేయడం వల్ల, AI ఏమి చేయగలదో మరియు మన పని విధానాన్ని అది ఎంత వేగంగా మారుస్తోందో ప్రత్యక్షంగా చూసే అవకాశం నాకు దక్కింది. కానీ ఒక విషయం మాత్రం నన్ను వదల్లేదు.",
         "story_quote1": "“నా పనిలో ప్రతిరోజూ AI ఎంతటి మార్పు తీసుకురాగలదో చూశాను — అదే సమయంలో, ఆ శక్తి నా చుట్టూ కష్టపడుతున్న వ్యాపారాలకు అస్సలు అందుబాటులో లేకపోవడాన్ని కూడా చూశాను.”",
         "story_p3": "టెక్నాలజీ పరిష్కరించగల సమస్యలు వాళ్లకు లేవని కాదు. గంటల తరబడి చేతితో ఎంట్రీలు చేసే స్థానిక దుకాణదారుడైనా, ఈమెయిల్, వాట్సాప్, స్ప్రెడ్‌షీట్లలో చెల్లాచెదురుగా ఉన్న రికార్డులను నిర్వహిస్తున్న ఎదుగుతున్న మధ్యస్థాయి వ్యాపారమైనా — చాలా సులభం చేయగల ప్రక్రియల్లోనే ఎంతో సమయం వృధా అవుతోంది.",
@@ -496,7 +526,7 @@ window.NeoLang = {
         "story_p5": "NeuCorelytix ఉద్దేశ్యం టెక్నాలజీని <strong>అన్ని పరిమాణాల వ్యాపారాలకు ఆచరణాత్మకంగా, సులభంగా, అందుబాటులోకి</strong> తీసుకురావడం — స్థానిక దుకాణాల నుంచి ఎదుగుతున్న మధ్యస్థాయి సంస్థల వరకు — నిజంగా అవసరమైన చోట మాత్రమే AI, ఆటోమేషన్ లేదా సాఫ్ట్‌వేర్‌ను ఉపయోగిస్తూ.",
         "story_p6": "మేము నేరుగా వ్యాపారాలతో కలిసి పనిచేస్తూ, ఒక్కో సమస్యను పరిష్కరించడంతో ప్రారంభిస్తున్నాం. కానీ నేను నిర్మించాలనుకుంటున్నది వ్యక్తిగత పరిష్కారాలకు మించినది.",
         "story_quote2": "“ఎక్కువ మంది వ్యక్తులు, వ్యాపారాలు ఈ సాంకేతిక మార్పులో భాగం కావాలని కోరుకుంటున్నాను — వాళ్లను AI నిపుణులుగా మార్చడం ద్వారా కాదు, దాని ప్రయోజనాలను వాళ్ల రోజువారీ పనిలో నిజంగా ఉపయోగపడేలా చేయడం ద్వారా. శక్తివంతమైన టెక్నాలజీ ఎక్కడో వేరే చోట జరుగుతున్నట్టు అనిపించకూడదు. అది మీరు నిజంగా వాడగలిగేదిలా అనిపించాలి.”",
-        "btn_book_free_call": "పవనితో ఉచిత కాల్ బుక్ చేయండి →",
+        "btn_book_free_call": "పావనితో ఉచిత కాల్ బుక్ చేయండి →",
         "footer_privacy": "ప్రైవసీ పాలసీ",
         "footer_terms": "సేవా నిబంధనలు",
         "footer_contact": "సపోర్ట్‌ను సంప్రదించండి",
@@ -526,8 +556,23 @@ window.NeoLang = {
         "sector_family": "కుటుంబ వ్యాపారాలు",
         "btn_different_prob_cta": "మాకు చెప్పండి. దాన్ని మీకు సులభం చేయగలమో చూస్తాం. →",
 
+        /* guide chrome */
+        "footer_rights": "© 2026 NeuCorelytix Solutions LLP. అన్ని హక్కులు ప్రత్యేకించబడ్డాయి.",
+        "footer_link_1": "టాప్ సెల్లింగ్ ప్రోడక్ట్స్ గైడ్",
+        "footer_link_2": "స్టాక్ కొనుగోలు గైడ్",
+        "footer_link_3": "లాభ మార్జిన్ విశ్లేషణ",
+        "footer_link_4": "కోల్పోయిన డిమాండ్ ట్రాకింగ్",
+        "footer_link_5": "కుటుంబ వ్యాపార ఆధునికీకరణ",
+        "footer_link_6": "వాట్సాప్ కస్టమర్ విచారణలు",
+        "modal_label_business": "మీ బిజినెస్ ఏమి చేస్తుంది?",
+        "modal_business_placeholder": "ఉదా. జైపూర్‌లో వస్త్ర దుకాణం, హోల్‌సేల్ హార్డ్‌వేర్ పంపిణీ, CA సంస్థ...",
+        "modal_label_website": "వెబ్‌సైట్ లేదా సోషల్ లింక్ (ఐచ్ఛికం)",
+        "modal_website_placeholder": "ఉదా. www.mybusiness.com లేదా ఇన్‌స్టాగ్రామ్ హ్యాండిల్",
+        "voice_status_listening": "వింటున్నాం... మీ బిజినెస్ ఏమి చేస్తుందో వివరించండి.",
+
+
         /* legacy aliases */
-        "modal_subtitle": "పవని & టీమ్‌తో ఉచిత కాల్ ఏర్పాటు చేసుకోండి. మీ బిజినెస్ సమస్యను విని పరిష్కారాలు చర్చిస్తాం — 100% ఉచితం, ఎలాంటి బాధ్యత లేకుండా.",
+        "modal_subtitle": "పావని & టీమ్‌తో ఉచిత కాల్ ఏర్పాటు చేసుకోండి. మీ బిజినెస్ సమస్యను విని పరిష్కారాలు చర్చిస్తాం — 100% ఉచితం, ఎలాంటి బాధ్యత లేకుండా.",
         "modal_btn_submit": "విచారణ సమర్పించండి →"
     },
 };
