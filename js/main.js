@@ -7,4 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initProblemModal();
     initFormHandlers();
     initEasierTabs();
+    initArticlesCarousel();
 });
